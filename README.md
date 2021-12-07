@@ -25,7 +25,6 @@ The L298N is an integrated circuit that follows the H-bridge concept. It comes i
 ![image](https://user-images.githubusercontent.com/19898602/145053342-cef7506c-8bc6-41c9-843e-0c5e26eb841f.png)
 
 
-![image](https://user-images.githubusercontent.com/19898602/145053357-ceaf7107-f499-4a25-bc7f-dc5bffec3919.png)
 
 
 This IC drives two motors through two channels, A and B. For example, if a motor is using channel A, its terminals must be connected to pins Out 1 and Out 2. The Enable A pin must be high to turn on the motor. To drive a motor to a direction, say, clockwise, the pin Input 1 must be high while the pin Input 2 must be low. To drive the motor counter clockwise, the pin Input 1 is low while the pin Input 2 is high.
